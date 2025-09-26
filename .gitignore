@@ -52,3 +52,27 @@ Makefile
 assets -> ../../assets
 assets/
 
+
+# Ignore build artifacts
+/build*
+*/build*
+/*.o
+/*.a
+/*.so
+/*.dll
+/*.exe
+/*.log
+/*.out
+
+# Ignore SFML local clone builds
+Perudo v.0.2/Perudo v.0.2/build/SFML
+
+# Ignore symlinked assets in build dirs
+assets
+
+# Editor/IDE
+*.swp
+*.swo
+*.vscode/
+.idea/
+
